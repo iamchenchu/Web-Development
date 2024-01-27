@@ -1,9 +1,13 @@
 /*
+
+MIDDLEWARE: this will run first before all, and this will run for each route 
+
+
 Steps to create Express Server :
-mkdir my-express-app
-cd my-express-app
-npm init -y
-npm install express
+    mkdir my-express-app
+    cd my-express-app
+    npm init -y
+    npm install express
 
 now create app.js or index.js and start write the code 
 node app.js or node index.js  : to run the server 
@@ -47,10 +51,16 @@ TEMPLATE ENGINE :
 STATIC FILES : Images, Stylesheets, 
 Below are the files to setup the static files 
 
-1. Create the folder called public 
-2. Create three folders inside it, images, stylesheets, javascripts
-3. configure the express static 
-4. understood the  path 
+    1. Create the folder called public 
+    2. Create three folders inside it, images, stylesheets, javascripts
+    3. configure the express static 
+    4. understood the  path 
+
+
+HTTP methods : get, post
+
+Error Handling : 
+    
 
 
 */
