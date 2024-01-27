@@ -24,4 +24,4 @@ app.use(function errorHandler(err, req, res, next){
     res.render('error', {error : err})
   })
 
-app.listen(3000);
+app.listen(3000); // listens on port 3000
